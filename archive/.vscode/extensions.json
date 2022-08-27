@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "dunn.redis",
+        "piyushvscode.nodejs-snippets",
+        "cweijan.vscode-redis-client",
+        "ms-vscode.node-debug2"
+    ]
+}

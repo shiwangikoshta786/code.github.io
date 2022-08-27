@@ -1,0 +1,24 @@
+{
+    "name": "pandooji_node",
+    "type": "module",
+    "lockfileVersion": 2,
+    "requires": true,
+    "packages": {},
+    "dependencies": {
+        "crypto-js": "^4.1.1",
+        "cryptr": "^3.0.0",
+        "date-and-time": "^2.3.1",
+        "emailjs": "^4.0.0",
+        "esm": "^3.2.25",
+        "express": "^4.17.3",
+        "fs": "^0.0.1-security",
+        "module": "^1.2.5",
+        "mqtt": "^4.3.7",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.3.3",
+        "nodemodule": "^0.3.0",
+        "redis": "^4.0.6",
+        "request": "^2.88.2",
+        "xml2js": "^0.4.23"
+    }
+}

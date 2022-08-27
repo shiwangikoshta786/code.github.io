@@ -1,0 +1,30 @@
+<connection>
+
+ <mysqlhost>192.168.2.66</mysqlhost>
+ <mysqluser>shiwangikoshta</mysqluser>
+ <mysqlpassword>Smart@123</mysqlpassword>
+
+ <RedisConnection>192.168.2.66</RedisConnection>
+ <RedisPassword></RedisPassword>
+ <RedisPort>6379</RedisPort>
+ <portno>5022</portno>
+
+<!-- <URL>https://node1.smart24x7.com/CheckList/</URL> -->
+
+
+ <mqttserverurl>mqtt://kkk.smart24x7.com</mqttserverurl>
+ <mqttusername>cp</mqttusername>
+ <mqttpassword>smart@123</mqttpassword>
+ <mqtttclientid>SHIWANGI__SMART9786</mqtttclientid>
+ <mqttsubtopic>ER/IN/Login/+/MOB/+/Bolo/+/+/panduji/#</mqttsubtopic>
+
+<key>ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEF</key>
+<iv>ABCDEFGHIJKLMNOP</iv>
+<algorithm>aes-256-cbc</algorithm>
+
+
+<smtphost>192.168.2.99</smtphost>
+  <smtpport>25</smtpport>
+  <smtpssl>False</smtpssl>
+
+</connection> 

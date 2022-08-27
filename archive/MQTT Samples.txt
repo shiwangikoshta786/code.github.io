@@ -1,0 +1,23 @@
+
+{"GetOtp":{"UserName":"kbjangra@gmail.com","OrgName":"Beverly Park"}}
+
+Toipic: ER/IN/Login/kbjangra@gmail.com/MOB/2aa6ef78a23b54eea9b388a7d050b716/Bolo/-1/-1/panduji/OtpRequest
+, messageId : , length : 168
+
+Request 
+Topic : ER/IN/Login/kbjangra@gmail.com/MOB/89567031dce99ce96b4af6d128631270/Bolo/-1/-1/panduji/CommunityRequest
+Payload: "{"GetCommunity":{"UserName":"kbjangra@gmail.com"}}"
+
+
+Response
+ER/IN/Login/kbjangra@gmail.com/MOB/89567031dce99ce96b4af6d128631270/Suno/-1/-1/panduji/CommunityRequest: 
+<<"{ \"GetCommunity\": { \"DateTime\": \"\", \"Status\": \"Success\", \"M_Common_User\": \"0\", \"Community\": [{\"POID\":\"396\",\"OID\":\"396\",\"MID\":\"9410\",\"OrgName\":\"Beverly Park\"}] } } ">>
+
+
+Request
+ER/IN/Login/test@test.com/MOB/da6d45696239d6d3b072d431cc32e660/Bolo/-1/-1/panduji/OtpRequest
+ {"GetOtp":{"UserName":"test@test.com","OrgName":"ETSY India"}}
+
+Response 
+ER/IN/Login/kbjangra@gmail.com/MOB/89567031dce99ce96b4af6d128631270/Suno/-1/-1/panduji/OtpRequest: 
+<<"{ \"GetOtp\": { \"DateTime\": \"\", \"Status\": \"Success\", \"OTP\": \"429965\", \"M_Common_User\": \"0\", \"Community\": [{\"POID\":\"\",\"OID\":\"\",\"MID\":\"\",\"OrgName\":\"Beverly Park\"}] } } ">>

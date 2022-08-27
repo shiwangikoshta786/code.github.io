@@ -1,0 +1,19 @@
+
+login request:
+
+Topic ER/IN/Login/kbjangra@gmail.com/MOB/57976e2b8d51ea7b50172279f9ece1ac/Bolo/-1/-1/panduji/Login
+Payload {"msg":{"AppVer":null,"UserName":"kbjangra@gmail.com","Password":"1234","DeviceIMEI":"57976e2b8d51ea7b50172279f9ece1ac","Application":"Connect"}}
+
+
+post login:
+
+Topic ER/IN/Login/kbjangra@gmail.com/MOB/57976e2b8d51ea7b50172279f9ece1ac/Bolo/396/396/panduji/PostLogin
+Payload {"msg":{"UserName":"kbjangra@gmail.com","Password":"123456","OID":"396","POID":"396","DeviceIMEI":"57976e2b8d51ea7b50172279f9ece1ac","Application":"Connect"}}
+
+
+
+forget Password:
+
+
+Topic ER/IN/Login/kbjangra@gmail.com/MOB/57976e2b8d51ea7b50172279f9ece1ac/Bolo/-1/-1/panduji/CommunityRequest
+Payload {"GetCommunity":{"UserName":"kbjangra@gmail.com"}}
