@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+      
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+.btn :hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+     <div class="container">
+            <form action="/user" method="post">
+      <div>
+        EMPLOYEE NAME:
+        <br><input type="text" id="name" name="name", placeholder="ENTER YOUR NAME" required>
+       </div>
+          <div>
+            EMPLOYEE SALARY:
+           <br> <input type="text" id="salary" name="salary", placeholder="ENTER YOUR SALARY" required>
+            </div>      
+               <div>
+                COMPANY:
+                <br><input type="text" id="company" name="company", placeholder="ENTER YOUR COMPANY" required>
+               </div>
+               <br>
+               <br> <button class="btn">submit</button>
+                
+                
+                
+                
+                </form>
+        </div>
+
+
+       
+    </body>
+</html>
